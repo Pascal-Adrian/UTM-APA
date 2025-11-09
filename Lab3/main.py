@@ -63,10 +63,9 @@ def extensive_test():
         plot_2(n_nodes, BFS_results, DFS_results, "DFS and BFS time complexity for p = " + str(i / 10))
         print("===========================================\n")
         print(f"p = {i / 10}\n")
-        # print("DFS results:")
-        # print_results(n_nodes, DFS_results)
-        plot(n_nodes, BFS_results, "BFS time complexity for p = " + str(i / 10))
-        # print("\n-------------------------------------------\n")
+        print("DFS results:")
+        print_results(n_nodes, DFS_results)
+        print("\n-------------------------------------------\n")
         print("BFS results:")
         print_results(n_nodes, BFS_results)
 
